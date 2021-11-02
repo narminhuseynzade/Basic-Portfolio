@@ -16,7 +16,7 @@ body{
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*header*/
  #meta{
     
     width: 100%;
@@ -56,11 +56,11 @@ body{
      padding-right: 15px;
 
  }
- 
+ /*Main*/
 
  #main-section{
   float: left;
-  width: 70%;
+  width: 100%;
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
@@ -102,11 +102,11 @@ section p{
      
  }
 
-
+/*Sidebar*/
  #aside{
      background-color: #fff;
      float: right;
-     width: 30%;
+     width: 100%;
     max-width: 270px;
     height: 205px;
     padding: 30px;
@@ -137,11 +137,13 @@ section p{
         border-top: 10px solid rgb(25, 190, 127) !important;
         height: 120px;
     }
+    /*footer*/
  #footer{
     padding-top: 50px;
     font-size: 13px;
+    margin: 0 auto !important;
 }
-
+/*portfolio*/
 .ability{
     position: relative;
     float: left;
@@ -172,6 +174,9 @@ section p{
    text-align: center;
    background: rgb(25, 190, 127);
 }
+/*Contact*/
+
+
 label,
 input[type=text],
 input[type=email],
@@ -185,7 +190,7 @@ input[type=email],
 textarea {
   font-size: 14px;
   height: 40px;
-  padding: 10px;
+  padding:  0 10px;
   border: 1px solid #ddd;
 }
 
@@ -197,7 +202,7 @@ select{
     display: inline;
     font-size: 14px;
   height: 40px;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #ddd;
 }
 input[type=submit]{
