@@ -5,6 +5,8 @@ body{
 }
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 #main {
     padding-top: 130px;
@@ -13,21 +15,20 @@ body{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    clear: both;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
 /*header*/
- #meta{
-    
+
+ header{
     width: 100%;
     color: rgb(255, 255, 255);
     background: rgb(255, 255, 255);
     border: 2px solid #cccccc;
-    margin-bottom: 20px;
     overflow: auto;  
     position: fixed;
     z-index: 100;
+    display: flex;
      
  }
 #me{
@@ -38,16 +39,17 @@ body{
    font-size:  35px;
    text-decoration: none;
    padding: 26px 50px;
-   margin-right: 400px;
- justify-content: flex-start;
+   margin-left: 300px;
+}
    
 
- }
+ 
  nav{
     
-     margin-top: 35px !important;
-     font-size: 18px !important;
-       justify-content: flex-end;
+     margin-top: 25px;
+     font-size: 18px;
+     justify-content: flex-end;
+     margin-left: 500px;
 
  }
   nav a{
@@ -130,11 +132,9 @@ section p{
     .connect{
      width: 63px;
      height: 63px;
-     margin-top: 20px;
     }
     footer{
-      
-        clear: both;
+        display: flex;
         color: #ccc;
         text-align: center;
         background: #666;
